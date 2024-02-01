@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/CSS/font-awesome.min.css">
+  <link rel="stylesheet" href="/CSS/style.css">
+  <title>JS, calculator, stopwatch, open navigation, and watch.</title>
+</head>
+<body>
+  <!-- Start the header section -->
+  <header>
+    <div class="container">
+      <div class="logo-area">
+        <img src="/Images/Logo/demo-logo.png" alt="opps something went wrong">
+      </div>
+      <div class="navigation-area">
+        <i class="fa fa-bars" onclick="showNavbar()"></i>
+        <ul id="navLinks">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Clock</a></li>
+          <li><a href="#">Stopwatch</a></li>
+          <li><a href="#">Calculator</a></li>
+          <li class="Contact"><a href="#">Contact</a></li>
+          <i id="fatimes" class="fa fa-times" onclick="hidNavbar()"></i>
+        </ul>
+      </div>
+    </div>
+    <!-- End the header section -->
+  </header>
+  <!-- Start the landing section -->
+  <section class="landing">
+    <div class="container-landing">
+     <div class="landing-content">
+      <div class="col-md-6 landing-box landing-box-left">
+        <h1>Effortless Calculations at Fingertips</h1>
+        <p>Discover a seamless blend of functionality and style with our collection of watches and calculators. At the intersection of precision and convenience, our timepieces not only adorn your wrist with elegance but also keep you punctual, second by second.</p>
+        <button class="landing-btn">Learn More!</button>
+      </div>
+      <div class="col-md-6 landing-box landing-box-right">
+        <img src="/Images/Landing/landing-bg-.png" alt="">
+      </div>
+     </div>
+    </div>
+    <img class="landing-waver" src="/Images/wave1.png" alt="">
+    <!-- End the landing section -->
+  </section>  
+  <!-- Start about us section -->
+   <section class="about-section">
+    <div class="about-continer">
+      <div class="about-content">
+        <div class="about-box about-box-right">
+          <h2>about us</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed iusto eius neque repudiandae modi labore facilis voluptatum aliquam, minima nisi corrupti iure nam excepturi molestias ipsum! Perferendis, quaerat eos? Illo odio voluptate veniam corrupti sint.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed iusto eius neque repudiandae modi labore facilis voluptatum aliquam, minima nisi corrupti iure nam excepturi molestias ipsum! Perferendis, quaerat eos? Illo odio voluptate veniam corrupti sint.</p>
+          <button class="landing-btn about-btn">read more</button><br>
+        </div>
+        <div class="about-box about-box-left">
+          <img src="/Images/about-section/about-section.png" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- End about us section -->
+  </section> 
+  <!-- Start clock section  -->
+  <section class="clock-section">
+     <div class="container">
+          <div class="clock-content">
+            <div class="clock-box clock-box-right">
+              <h2>Explore Time with Precision</h2>
+              <p>Embark on a journey where every moment matters. Our watches go beyond mere timekeeping; they're a testament to craftsmanship, ensuring you stay on schedule with unparalleled accuracy. From classic designs to modern innovations, find the perfect companion for your everyday adventures.Embark on a journey where every moment matters. Our watches go beyond mere timekeeping; they're a testament to craftsmanship, ensuring you stay on schedule with unparalleled accuracy. From classic designs to modern innovations, find the perfect companion for your everyday adventures.</p>
+              <button class="clock-btn">learn more</button>
+            </div>
+          <div class="clock-box clock-box-left">
+            <div class="left-content">
+              <span id="hour">00</span>
+              <span>:</span>
+              <span id="minute">00</span>
+              <span>:</span>
+              <span id="second">00</span>
+            </div>
+          </div>
+        </div>
+     </div>
+    <!-- End clock section  -->
+  </section>
+  <!-- Start testimonials section  -->
+  <section class="testimonial-section">
+    <div class="testimonial-container">
+        <div class="testimonial-header">
+          <h2>Customer Testimonials</h2>
+          <p>Read what our satisfied customers have to say. Resize the browser window to see the effect.</p>
+        </div>
+        <div class="testimonial-content">
+          <div class="testimonial-box">
+            <img width="100px" height="100px" src="/Images/testomnile/testomonile-2.jpg" alt="opps something went wrong"  >
+            <p><span>Chris Fox.</span> CEO at Mighty Schools.</p>
+            <p>John Doe saved us from a web disaster.</p>
+          </div>
+          
+          <div class="testimonial-box">
+            <img width="100px" height="100px" src="/Images/testomnile/testomonile-5.jpg" alt="Avatar">
+            <p><span>Rebecca Flex.</span> CEO at Company.</p>
+            <p>No one is better than John Doe.</p>
+          </div>
+          <div class="testimonial-box">
+            <img width="100px" height="100px" src="/Images/testomnile/testomonile-6.jpg" alt="Avatar">
+            <p><span>Rebecca Flex.</span> CEO at Company.</p>
+            <p>No one is better than John Doe.</p>
+          </div>
+          <div class="testimonial-box">
+            <img width="100px" height="100px" src="/Images/testomnile/testomonile-8.jpg" alt="Avatar">
+            <p><span>Rebecca Flex.</span> CEO at Company.</p>
+            <p>No one is better than John Doe.</p>
+          </div>
+        </div>
+        <div class="testimonial-content testimonial-secrow">
+          <div class="testimonial-box">
+            <img width="100px" height="100px" src="/Images/testomnile/testomonile-2.jpg" alt="opps something went wrong" >
+            <p><span>Chris Fox.</span> CEO at Mighty Schools.</p>
+            <p>John Doe saved us from a web disaster.</p>
+          </div>
+          
+          <div class="testimonial-box">
+            <img width="100px" height="100px" src="/Images/testomnile/testomonile-5.jpg" alt="Avatar">
+            <p><span>Rebecca Flex.</span> CEO at Company.</p>
+            <p>No one is better than John Doe.</p>
+          </div>
+          <div class="testimonial-box">
+            <img width="100px" height="100px" src="/Images/testomnile/testomonile-6.jpg" alt="Avatar">
+            <p><span>Rebecca Flex.</span> CEO at Company.</p>
+            <p>No one is better than John Doe.</p>
+          </div>
+          <div class="testimonial-box">
+            <img width="100px" height="100px" src="/Images/testomnile/testomonile-8.jpg" alt="Avatar">
+            <p><span>Rebecca Flex.</span> CEO at Company.</p>
+            <p>No one is better than John Doe.</p>
+          </div>
+        </div>
+    </div>
+
+    <!-- End testimonials section  -->
+  </section>
+  <!-- Start calculator section -->
+  <section class="calculator-section">
+    <div class="calculator-container">
+      <div class="calculator-content">
+        <div class="calculator-box calculator-left-box">
+          <h2>Time heals what reason cannot</h2>
+          <p>Time is the longest distance between two places." - Tennessee Williams. Time is like a river. You cannot touch the same water twice, because the flow that has passed will never pass again. Enjoy every moment of your life." - Unknown.Time is like a river. You cannot touch the same water twice, because the flow that has passed will never pass again. Enjoy every moment of your life." - Unknown. Time is like a river. You cannot touch the same water twice, because the flow that has passed will never pass again. Enjoy every moment of your life." - Unknown</p>
+          <button>learn more</button>
+        </div>
+        <div class="calculator-box calculator-right-box">
+          <form action="#">
+            <div>
+              <input type="text" name="diplay">
+            </div>
+            <div>
+              <input type="button" value="AC" onclick="diplay.value =' '" class="buttonColor">
+              <input type="button" value="DC" onclick="diplay.value = diplay.value.toString().slice(0, -1)" class="buttonColor">
+              <input type="button" value="."  onclick="diplay.value +='.'" class="buttonColor">
+              <input type="button" value="/"  onclick="diplay.value +='/'" class="buttonColor">
+            </div>
+            <div>
+              <input type="button" value="7" onclick="diplay.value +='7'">
+              <input type="button" value="8" onclick="diplay.value +='8'">
+              <input type="button" value="9" onclick="diplay.value +='9'">
+              <input type="button" value="*" onclick="diplay.value +='*'" class="buttonColor">
+            </div>
+            <div>
+              <input type="button" value="4" onclick="diplay.value +='4'">
+              <input type="button" value="5" onclick="diplay.value +='5'">
+              <input type="button" value="6" onclick="diplay.value +='6'">
+              <input type="button" value="-" onclick="diplay.value +='-'" class="buttonColor">
+            </div>
+            <div>
+              <input type="button" value="1" onclick="diplay.value +='1'">
+              <input type="button" value="2" onclick="diplay.value +='2'">
+              <input type="button" value="3" onclick="diplay.value +='3'">
+              <input type="button" value="+" onclick="diplay.value +='+'" class="buttonColor">
+            </div>
+            <div>
+              <input type="button" value="00" onclick="diplay.value +='00'">
+              <input type="button" value="0"  onclick="diplay.value +='0'" >
+              <input type="button" value="="  onclick="diplay.value = eval(diplay.value)" class="buttonColor">
+             </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- End calculator section -->
+  </section>
+  <!-- Start stopwatch section -->
+  <section class="stopwatch-section">
+    <div class="stopwatch-section-container">
+        <div class="stopwatch-section-content">
+        <div class="stopwatch-section-content">
+          <div class="stopwatch-box ">
+            <h2>don't watch the clock, do what it does. Keep going.</h2>
+            <p>This saying emphasizes the importance of utilizing time effectively and continuously working towards your goals without being overly fixated on the passing of time.This saying emphasizes the importance of utilizing time effectively and continuously working towards your goals without being overly fixated on the passing of time.This saying emphasizes the importance of utilizing time effectively and continuously working towards your goals without being overly fixated on the passing of time.This saying emphasizes the importance of utilizing time effectively and continuously working towards your goals without being overly fixated on the passing of time.</p>
+            <button>learn more</button>
+          </div>
+          <div class="stopwatch-box sopwatch ">
+             <div class="timer-display">
+                   00 : 00 : 00 
+             </div>
+             <div class="button">
+              <button id="start-timer">Start</button>
+              <button id="puse-timer">Puse</button>
+              <button id="reset-timer">reset</button>
+             </div>
+          </div> 
+    </div>
+    <!-- End stopwatch section -->
+  </section>
+  <!-- Start contact section -->
+ 
+
+
+  
+
+  <script src="/JS/main.js"></script>
+</body>
+</html>
